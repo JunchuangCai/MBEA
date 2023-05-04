@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VRPHTO_clion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MBEA">
+				<Option output="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/MBEA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 MBEA"/>
+					<CompileFile command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MBEA/fast">
+				<Option output="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/MBEA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="F:/Clion/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 MBEA/fast"/>
+					<CompileFile command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Clion/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/MFO.cpp">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/arrayOperations.cpp">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/functions.h">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/initialize.cpp">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/mfoOperations.cpp">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/searchOperators.cpp">
+			<Option target="MBEA"/>
+		</Unit>
+		<Unit filename="D:/Research/Combinatorial-Optimization/VRP/Suntao_VRPSPD/VRPSPDTW-code/VRPSPDTW_MBEA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
